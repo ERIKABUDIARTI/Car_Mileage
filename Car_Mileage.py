@@ -32,7 +32,7 @@ def user_input_features():
         displacement = st.sidebar.slider('The volume of the piston`s stroke in the engine (cubic inches)', 50, 500, 50, step=25)
         horsepower = st.sidebar.slider('The engine`s power output (hp)', 0, 10, 0, step=1)
         weight = st.sidebar.slider('The weight of the car (pounds)', 1500, 5500, 1500, step=200)
-        acceleration = st.sidebar.slider('The time it takes fot the car to accelerate from 0 to 60 km/hr (second)', 5, 30, 5, step=5)
+        acceleration = st.sidebar.slider('The time it takes for the car to accelerate from 0 to 60 km/hr (second)', 5, 30, 5, step=5)
         model_year = st.sidebar.slider('The year of manufacture (year 19xx)', 70, 85, 70, step=1)
         origin = st.sidebar.selectbox('The country or region of the car`s origin',("USA", "Europe", "Japan"))
         if origin == "USA":
