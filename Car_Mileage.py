@@ -54,7 +54,7 @@ input_df = user_input_features()
 
 # Add picture  
 img = Image.open("car_mileage.png")
-st.image(img, width=750)
+st.image(img, width=600)
 
 if st.sidebar.button('Click Here to Predict!'):
         with open("best_model_gbr.pkl", 'rb') as file:  
